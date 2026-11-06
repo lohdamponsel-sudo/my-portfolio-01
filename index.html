@@ -1,0 +1,146 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My portfolio</title>
+  <link rel="stylesheet" href="My-portfolio.css">
+</head>
+
+<body>
+
+<!-- Navigation Bar -->
+<header>
+  <div class="container">
+    <nav>
+      <div class="logo">
+        <img src="Logo 1.png" width="60" height="60" alt="Logo">
+      </div>
+
+      <button class="menu-toggle" onclick="toggleMenu()">
+    ☰
+  </button>
+
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#Home">Home</a></li>
+        <li><a href="#About">About</a></li>
+        <li><a href="#Skills">Skills</a></li>
+        <li><a href="#Projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<hr>
+
+
+<section id="Home">
+  <center>
+    <h2>WELCOME TO MY PORTFOLIO</h2>
+  </center>
+
+  <p>
+    I am Lohhdam Ponsel, a beginner web developer
+    passionate about creating simple websites.
+  </p>
+
+  <center>
+    <img src="lohdam.jpg" width="200" height="200" alt="My picture">
+  </center>
+</section>
+
+<hr>
+
+
+<section id="About">
+  <center>
+    <h1>ABOUT ME</h1>
+  </center>
+
+  <p>
+    Hello!<br>
+    I am Lohhdam Ponsel, a recent graduate of
+    "Introductory Web Development Bootcamp".<br>
+    I love learning new technologies and bringing
+    ideas to life through code.<br>
+    This is my very first portfolio website built
+    using HTML, CSS and JavaScript.
+  </p>
+</section>
+
+
+<section id="Skills">
+  <center>
+    <hr>
+    <h1>MY SKILLS</h1>
+
+    <div class="card">
+      <img src="html.jpg" alt="HTML">
+      <h2>HTML</h2>
+    </div>
+
+    <div class="card">
+      <img src="css.jpg" alt="CSS">
+      <h2>CSS</h2>
+    </div>
+
+    <div class="card">
+      <img src="javascript.jpg" alt="JavaScript">
+      <h2>JavaScript</h2>
+    </div>
+  </center>
+</section>
+
+<hr>
+
+
+<section id="Projects">
+  <center>
+    <h2>PROJECT</h2>
+  </center>
+
+  <div class="projects-card">
+    <h2>Project Description</h2>
+
+    <p>
+      It is a portfolio of myself, portraying my
+      information and skills alongside my contact details.
+    </p>
+
+    <a href="Assignment.html">View Here</a>
+  </div>
+</section>
+
+
+<section id="contact">
+  <h2>CONTACT ME</h2>
+
+  <form>
+    <input type="text" name="name" placeholder="Your name">
+
+    <input type="email" name="email" placeholder="Your email">
+
+    <textarea name="message" rows="4"
+      placeholder="Your message"></textarea>
+
+    <button type="submit">Contact me</button>
+  </form>
+</section>
+
+
+<footer>
+  <center>
+    <p>
+      &copy; <span id="year"></span> Lp.
+      All rights reserved.
+    </p>
+  </center>
+</footer>
+
+
+<script src="My-portfolio.js"></script>
+
+</body>
+</html>
